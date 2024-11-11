@@ -1,0 +1,185 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* رأس الصفحة */
+.header {
+    background-color: #5A9;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header h1 {
+    font-size: 2.8em;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #eee;
+}
+
+/* قسم المنتجات */
+.products-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.products-section h2 {
+    font-size: 2.4em;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-size: 1.6em;
+    color: #5A9;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.community-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5A9;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.community-link:hover {
+    background-color: #469;
+}
+
+/* قسم المدونة */
+.blog-section {
+    padding: 50px 0;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.blog-section h2 {
+    font-size: 2.4em;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-posts article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-posts article:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.blog-posts article h3 {
+    font-size: 1.5em;
+    color: #5A9;
+    margin-bottom: 10px;
+}
+
+.blog-posts article p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.blog-posts article a {
+    color: #469;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.blog-posts article a:hover {
+    color: #5A9;
+}
+
+/* الفوتر */
+.footer {
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.footer .social-media a {
+    color: #ddd;
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .social-media a:hover {
+    color: #5A9;
+}
+
+.footer p {
+    font-size: 0.9em;
+    color: #aaa;
+}
