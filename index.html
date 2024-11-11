@@ -1,0 +1,246 @@
+سأقوم بإنشاء تصميم بسيط للموقع باللغات HTML وCSS، مع التركيز على الألوان الزاهية والتنسيق الاحترافي والنصوص الجذابة، وسيكون هذا الموقع قابلًا للتعديل ليتناسب مع احتياجاتك.
+
+الملفات المطلوبة:
+
+1. ملف HTML: يحتوي على هيكل الموقع.
+
+
+2. ملف CSS: يحتوي على التصميم والألوان.
+
+
+
+HTML - (index.html)
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five Star Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1>Five Star Group</h1>
+            <p>مجتمعك الأفضل لعروض المنتجات الفاخرة</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#products">أقسام المنتجات</a></li>
+                    <li><a href="#blog">المدونة</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/yourwhatsappnumber" class="join-btn">انضم إلى واتساب</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>من نحن</h2>
+            <p>Five Star Group هو مشروع يهدف لبناء مجتمع متكامل عبر واتساب يقدم لك أفضل التوصيات، والمراجعات، والنصائح.</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>أقسام المنتجات</h2>
+            <div class="product-categories">
+                <a href="https://wa.me/yourwhatsappnumber1">الإلكترونيات</a>
+                <a href="https://wa.me/yourwhatsappnumber2">الموضة</a>
+                <a href="https://wa.me/yourwhatsappnumber3">الأدوات المنزلية</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>المدونة</h2>
+            <div class="blog-posts">
+                <article>
+                    <h3>كيفية اختيار المنتجات المثالية</h3>
+                    <p>دليلك الشامل لاختيار أفضل المنتجات في السوق الخليجية.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </article>
+                <article>
+                    <h3>نصائح للتسوق الذكي</h3>
+                    <p>احصل على أفضل الصفقات وأوفر الأسعار بكل سهولة.</p>
+                    <a href="#">اقرأ المزيد</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-media">
+                <a href="https://wa.me/yourwhatsappnumber" class="whatsapp">واتساب</a>
+                <a href="https://t.me/yourtelegram" class="telegram">تليجرام</a>
+                <a href="https://instagram.com/yourinstagram" class="instagram">إنستغرام</a>
+            </div>
+            <p>&copy; 2024 Five Star Group. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+CSS - (styles.css)
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    color: #333;
+    font-size: 2.5em;
+}
+
+.header p {
+    color: #444;
+    font-size: 1.2em;
+    margin: 5px 0 20px;
+}
+
+.header nav ul {
+    list-style: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.join-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About */
+.about {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.about h2 {
+    color: #ffcc00;
+    font-size: 2em;
+}
+
+.about p {
+    color: #555;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Products */
+.products {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.products h2 {
+    color: #ffcc00;
+    font-size: 2em;
+}
+
+.product-categories a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Blog */
+.blog {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.blog h2 {
+    color: #ffcc00;
+    font-size: 2em;
+}
+
+.blog-posts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-posts article {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.blog-posts article h3 {
+    color: #333;
+    font-size: 1.2em;
+}
+
+.blog-posts article p {
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .social-media a {
+    margin: 0 10px;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+
+---
+
+بهذا الشكل، ستحصل على موقع ويب متكامل بأسلوب عصري وألوان زاهية.
+
